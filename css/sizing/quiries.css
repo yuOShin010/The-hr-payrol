@@ -1,0 +1,36 @@
+/* This is for the small screen (1080px to 1143px) */
+
+@media screen and (max-width: 1080px) {
+    .front {
+        text-align: center;
+        float: left;
+        height: 40em;
+        width: 35em;
+        background-color: rgba(255, 255, 255, 0.652);
+        border: 1px solid white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 5px rgba(36, 36, 36, 0.856);
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3 a {
+        background-color: rgb(50, 63, 243);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px rgba(63, 63, 63, 0.774);
+        color: rgb(252, 253, 255);
+        text-decoration: none;
+    }
+    h3 a:hover {
+        box-shadow: 1px 1px 5px 1px rgba(233, 231, 229, 0.774);
+    }
+    /* LOGIN MODULE */
+    .div-login {
+        float: left;
+        height: 30em;
+        width: 30em;
+        background-color: rgba(245, 245, 245, 0.622);
+        border-radius: 10px;
+        box-shadow: 1px 3px 10px 3px rgba(27, 27, 27, 0.692);
+    }
+}
