@@ -40,7 +40,7 @@ html {
 }
 
 .text1:hover {
-    box-shadow: 2px 2px 4px 5px rgba(2, 2, 2, 0.849);
+    box-shadow: 0 0 5px 1px rgba(2, 2, 2, 0.849);
     transition: all 0.2s ease-in-out;
 }
 
@@ -52,6 +52,11 @@ html {
     border-radius: 5px;
     border: none;
     box-shadow: inset 0 0 5px rgb(148, 148, 148);
+}
+
+.text2:hover {
+    box-shadow: 0 0 5px 1px rgba(2, 2, 2, 0.849);
+    transition: all 0.2s ease-in-out;
 }
 
 button {
